@@ -110,7 +110,9 @@ a:not(.btn--remix):visited {
 /******************************************************************************
 END Glitch hello-app default styles
 ******************************************************************************/
-
+header {
+  background-color: #9bc4c9;
+}
 
 body {
   font-family: HK Grotesk;
@@ -130,6 +132,10 @@ nav a{
   
 }
 
+.main-content1,
+input {
+  
+}
 
 /* Page structure */
 .wrapper {
