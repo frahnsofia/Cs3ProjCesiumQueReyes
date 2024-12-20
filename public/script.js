@@ -37,6 +37,7 @@ function visibility() {
 }
 
 function redirect() {
+  console.log(page)
   if (page==0) {
     location.replace("index.html")
   }
