@@ -19,7 +19,7 @@ to this section's matching END comment to see page-specific styles.
   --color-bg: gray;
   --color-text-main: #000000;
   --color-text-header: #2800FF;
-  --color-primary: #FFFF00;
+  --color-primary: #gray;
   --wrapper-height: 87vh;
   --image-max-width: 300px;
   --image-margin: 3rem;
@@ -58,7 +58,7 @@ to this section's matching END comment to see page-specific styles.
   height: 2.75rem;
   align-items: center;
   cursor: pointer;
-  background: #FFFFFF;
+  background: gray;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 4px;
@@ -71,7 +71,7 @@ to this section's matching END comment to see page-specific styles.
   margin-right: 0.5rem;
 }
 .btn--remix:hover {
-  background-color: #D0FFF1;
+  background-color: #FFF;
 }
 
 /* Navigation grid */
