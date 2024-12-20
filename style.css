@@ -235,3 +235,41 @@ h2 {
 .fileopener:hover {
   border-bottom:3px solid var(--color-secondary);
 }
+
+#ad1, #ad2 {
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  max-width: 100%;
+  min-height: 100%;
+  visibility: hidden;
+}
+
+#ad3 {
+  transform: translate(-50%, -50%);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  max-width: 100%;
+  min-height: 100%;
+  visibility: hidden;
+}
+
+#x, #x:hover, #x:active {
+  border-radius: 10px;
+  background-color: lightgrey;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  border: black;
+  position: absolute;
+  right: 2;
+  top: 2;
+  opacity: 0.7;
+}
+
+button {
+  visibility: hidden; 
+}

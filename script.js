@@ -1,10 +1,10 @@
-var Webpage = 0
+var page = 0
 var ad1 = document.getElementById("ad1")
 var ad2 = document.getElementById("ad2")
 var ad3 = document.getElementById("ad3")
 
 function ad(x) {
-  Webpage = x
+  page = x
   let ad = Math.floor(Math.random() * 3) + 1
   if (ad==1) {
     document.getElementById("body").style.visibility = "hidden"
@@ -37,16 +37,16 @@ function visibility() {
 }
 
 function redirect() {
-  if (Webpage==1) {
+  if (page==1) {
     location.replace("index.html")
   }
-  else if (Webpage==1) {
+  else if (page==1) {
     location.replace("Webpage1.html")
   }
-  else if (Webpage==2) {
+  else if (page==2) {
     location.replace("Webpage2.html")
   }
-  else if (Webpage==3) {
+  else if (page==3) {
     location.replace("Webpage3.html")
   }
 }
