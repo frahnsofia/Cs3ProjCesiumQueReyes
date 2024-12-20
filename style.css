@@ -125,7 +125,7 @@ nav a{
   color: black;
   text-align: center;
   padding: 10px;
-  background-color: #9bc4c9;
+  background-color: #ff66c4;
   text-decoration: none;
   
 }
@@ -169,11 +169,11 @@ nav a{
 }
 
 /* Button - Add it from the README instructions */
-button,
+button ,
 input {
   font-family: inherit;
   font-size: 100%;
-  background: #FFFFFF;
+  background: #ff3131;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 4px;
