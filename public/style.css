@@ -247,6 +247,10 @@ video {
   visibility: hidden;
 }
 
+#x {
+  visibility: visible; 
+}
+
 #x, #x:hover, #x:active {
   border-radius: 10px;
   background-color: lightgrey;
@@ -257,8 +261,4 @@ video {
   right: 2;
   top: 2;
   opacity: 0.7;
-}
-
-button {
-  visibility: visible; 
 }
