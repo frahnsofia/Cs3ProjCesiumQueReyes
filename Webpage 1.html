@@ -14,14 +14,25 @@
   <script src="script.js"></script>
     </nav>
   <h1> Fragments of a Murder (Chapter 1) </h1>
-     Welcome to the first chapter of this game! I am Nana, the detective of this case who is glad to see you. There has been news 
+   <div id = "main-content1"
+  <p>
+  Welcome to the first chapter of this game! I am Nana, the detective of this case who is glad to see you. There has been news 
 around the city that a murder has occured during the party. A writer named Demetri was last seen in the garden with a letter in his
 hand, unopened with ingredients written on it mainly with the elements, lead, mercury, and manganese. He was last seen with Lady Ada 
 who is the sister of Diana, Demetri's wife. Could you help me figure out who is the culprit of this case?
+  </p>
+  </div>
 <div class="container">
     <h1>Do you want to play the game?</h1>
-    <button onclick="Yes()">Yes</button>
+ 
+  <button class = "button-green"
+    <button onclick= "Yes()">Yes</button>
+  </button>
+  
+  <button class="button-red"
     <button onclick="No()">No</button>
+  </button>
+
     <p id="response"></p>
 </div>
 <script> 
@@ -33,8 +44,12 @@ who is the sister of Diana, Demetri's wife. Could you help me figure out who is 
         document.getElementById("response").innerText = "Maybe next time!"
     }
 </script>
-  
-
+    <style>
+#main-content1 {
+    background-color: #e7e5bf;
+    color: black; /* Adjust text color for readability */
+    padding: 20px;
+           </style>
 </body>
 
 </html>

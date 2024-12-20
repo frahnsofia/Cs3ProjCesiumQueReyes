@@ -169,11 +169,23 @@ nav a{
 }
 
 /* Button - Add it from the README instructions */
-button ,
+.button-red,
 input {
   font-family: inherit;
   font-size: 100%;
   background: #ff3131;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 0.5rem 1rem;
+  transition: 500ms;
+}
+
+.button-green,
+input {
+  font-family: inherit;
+  font-size: 100%;
+  background: #00bf63;
   border: 1px solid #000000;
   box-sizing: border-box;
   border-radius: 4px;
