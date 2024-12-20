@@ -71,7 +71,7 @@ to this section's matching END comment to see page-specific styles.
   margin-right: 0.5rem;
 }
 .btn--remix:hover {
-  background-color: #FFF;
+  background-color: #ff66c4;
 }
 
 /* Navigation grid */
@@ -116,9 +116,6 @@ h1 {
 }
 header {
   background-color: #9bc4c9;
-
-}
-
 
 }
 body {
