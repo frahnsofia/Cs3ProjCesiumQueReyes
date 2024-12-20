@@ -4,6 +4,7 @@ var ad2 = document.getElementById("ad2")
 var ad3 = document.getElementById("ad3")
 
 function ad(x) {
+  console.log("ran")
   page = x
   let ad = Math.floor(Math.random() * 3) + 1
   if (ad==1) {

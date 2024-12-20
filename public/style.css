@@ -248,7 +248,7 @@ video {
 }
 
 #x {
-  visibility: visible; 
+  visibility: hidden; 
 }
 
 #x, #x:hover, #x:active {
