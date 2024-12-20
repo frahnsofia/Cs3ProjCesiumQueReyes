@@ -116,6 +116,32 @@ body {
   background-color: var(--color-bg);
 }
 
+
+/* customizes text on the header bar */
+nav a{
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  background-color: #89CFF0;
+  text-decoration: none;
+}
+
+/* style for the navigation bar */
+nav{
+  position: fixed;
+  top: 0;
+  width:  100%;
+  overflow: hidden;
+  background-color: #89CFF0;
+}
+
+/* customizes hover color for the top bar */
+nav a:hover, nav a:active{
+  background-color: #89CFF0;
+  color: #e7bb4d;
+}
+
 /* Page structure */
 .wrapper {
   min-height: var(--wrapper-height);
