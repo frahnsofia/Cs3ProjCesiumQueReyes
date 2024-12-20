@@ -236,18 +236,7 @@ h2 {
   border-bottom:3px solid var(--color-secondary);
 }
 
-#ad1, #ad2 {
-  transform: translate(-50%, -50%);
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  z-index: -1;
-  max-width: 100%;
-  min-height: 100%;
-  visibility: hidden;
-}
-
-#ad3 {
+video {
   transform: translate(-50%, -50%);
   position: fixed;
   top: 50%;
@@ -271,5 +260,5 @@ h2 {
 }
 
 button {
-  visibility: hidden; 
+  visibility: visible; 
 }
