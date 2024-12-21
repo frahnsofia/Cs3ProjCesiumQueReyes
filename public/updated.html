@@ -15,6 +15,7 @@
       margin: 20px;
       background-color: #f5f5dc;
       color: #333;
+      position: relative; /* Ensure positioning is relative to body */
     }
 
     h1 {
@@ -56,10 +57,22 @@
       font-size: 1.2em;
       margin-top: 20px;
     }
+
+    /* Favicon positioning */
+    .favicon-img {
+      position: absolute;  /* Fix the image position */
+      top: 10px;           /* Distance from the top */
+      right: 10px;         /* Distance from the right */
+      width: 40px;         /* Adjust width */
+      height: auto;        /* Maintain aspect ratio */
+    }
   </style>
 </head>
 
 <body>
+  <!-- Favicon Image -->
+  <img class="favicon-img" src="https://cdn.glitch.global/7cb3cfd0-de7e-4ea5-9710-1e676c65c921/''.png?v=1734794450346" alt="Favicon">
+
   <h1>Fragments of a Murder (Chapter 2)</h1>
 
   <div class="content">
