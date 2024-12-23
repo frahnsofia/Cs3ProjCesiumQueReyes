@@ -257,7 +257,7 @@ video {
   padding-top: 4px;
   padding-bottom: 3px;
   border: black;
-  position: absolute;
+  position: fixed;
   right: 2;
   top: 2;
   opacity: 0.7;
