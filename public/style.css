@@ -183,28 +183,23 @@ input {
   background: #9aadb7
 }
 /* Button - Add it from the README instructions */
-.button-red,
-input {
-  font-family: inherit;
-  font-size: 100%;
+#button-red {
   background: #ff3131;
   border: 1px solid #000000;
-  box-sizing: border-box;
   border-radius: 4px;
   padding: 0.5rem 1rem;
-  transition: 500ms;
 }
 
-.button-green,
-input {
-  font-family: inherit;
-  font-size: 100%;
+#button-green {
   background: #00bf63;
   border: 1px solid #000000;
-  box-sizing: border-box;
   border-radius: 4px;
   padding: 0.5rem 1rem;
-  transition: 500ms;
+}
+
+.ch2-buttons {
+  display: inline-block;
+  
 }
 
 /* Subheading */

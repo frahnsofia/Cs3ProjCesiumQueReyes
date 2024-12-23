@@ -51,13 +51,19 @@
   <div class="container">
     <h1>Do you want to play the game?</h1>
  
-  <button class="button-green">
-    <button onclick="yes(2)">Yes</button>
-  </button>
-  
-  <button class="button-red">
-    <button onclick="no()">No</button>
-  </button>
+  <div class="ch2-buttons">
+    <a onclick="yes(2)">
+      <div id="button-green">
+        <p>Yes</p>
+      </div>
+    </a>
+
+    <a onclick="no()">
+      <div id="button-red">
+        <p>No</p>
+      </div>
+    </a>
+  </div>
 
     <p id="response"></p>
   </div>
