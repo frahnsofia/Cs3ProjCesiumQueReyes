@@ -56,6 +56,7 @@ function redirect() {
 function yes(x) {
   if (x==2) {
     document.getElementById("ch2").classList.remove("hidden")
+    document.getElementById("response").innerText = "Great! Click the link in Chapter 2 to continue!"
   }
   else if (x==3) {
     document.getElementById("ch3").classList.remove("hidden")
