@@ -36,11 +36,9 @@
   <img src="https://cdn.glitch.global/7cb3cfd0-de7e-4ea5-9710-1e676c65c921/''.png?v=1734794450346" alt="Favicon" class="favicon-img">
 
   <nav>
-    <a onclick="ad(0)"> Homepage </a> 
-     
-    <a onclick="ad(2)">Chapter 2</a> 
-     
-    <a onclick="ad(3)">Chapter 3</a> 
+    <a id="ch1" onclick="ad(1)"> Chapter 1</a> 
+    <a id="ch2" class="hidden" onclick="ad(2)">Chapter 2</a> 
+    <a id="ch3" class="hidden" onclick="ad(3)">Chapter 3</a>
   </nav>
 
   <h1> Fragments of a Murder (Chapter 1) </h1>
@@ -58,11 +56,11 @@
     <h1>Do you want to play the game?</h1>
  
   <button class="button-green">
-    <button onclick="Yes()">Yes</button>
+    <button onclick="yes(2)">Yes</button>
   </button>
   
   <button class="button-red">
-    <button onclick="No()">No</button>
+    <button onclick="no()">No</button>
   </button>
 
     <p id="response"></p>

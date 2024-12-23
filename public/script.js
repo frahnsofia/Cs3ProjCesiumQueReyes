@@ -52,3 +52,12 @@ function redirect() {
     location.replace("Webpage3.html")
   }
 }
+
+function yes(x) {
+  if (x==2) {
+    document.getElementById("ch2").classList.remove("hidden")
+  }
+  else if (x==3) {
+    document.getElementById("ch3").classList.remove("hidden")
+  }
+}

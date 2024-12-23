@@ -262,3 +262,7 @@ video {
   top: 2;
   opacity: 0.7;
 }
+
+.hidden {
+  visibility: hidden;
+}
