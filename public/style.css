@@ -187,19 +187,28 @@ input {
   background: #ff3131;
   border: 1px solid #000000;
   border-radius: 4px;
-  padding: 0.5rem 1rem;
+  height: 50px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
 }
 
 #button-green {
   background: #00bf63;
   border: 1px solid #000000;
   border-radius: 4px;
-  padding: 0.5rem 1rem;
+  height: 50px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .ch2-buttons {
-  display: inline-block;
-  
+  display: flex;
+  margin-left: 10px;
 }
 
 /* Subheading */
