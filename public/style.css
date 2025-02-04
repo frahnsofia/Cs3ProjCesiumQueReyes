@@ -205,6 +205,9 @@ input {
   align-items: center;
   justify-content: center;
 }
+a:hover {
+  background-color: lightpink;
+}
 
 .ch2-buttons {
   display: flex;
